@@ -63,9 +63,11 @@
             <groupId>net.sf.opencsv</groupId>
             <artifactId>opencsv</artifactId>
         </dependency>
+<!-- asi by se musel pregenerovat Saleforce client z WSDL (package com.sforce.soap.partner) a updatnout JARka v sfdc modulu -->
+<!-- Axis2 ma uplne jine API -->
         <dependency>
-            <groupId>axis</groupId>
-            <artifactId>axis</artifactId>
+            <groupId>org.apache.axis2</groupId>
+            <artifactId>axis2-kernel</artifactId>
         </dependency>
         <dependency>
             <groupId>javassist</groupId>
